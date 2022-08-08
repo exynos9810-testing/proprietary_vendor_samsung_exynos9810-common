@@ -206,3 +206,8 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.gnss@2.0-service \
     mcDriverDaemon \
     vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service
+
+# HWComposer
+PRODUCT_PACKAGES += \
+    libdrm.exynos9810 \
+    libdrmresource.exynos9810
