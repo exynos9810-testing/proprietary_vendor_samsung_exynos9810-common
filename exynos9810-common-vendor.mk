@@ -193,8 +193,8 @@ PRODUCT_PACKAGES += \
     libkeymaster2_mdfpp \
     libmpp \
     libril-samsung \
-    libsec-ril \
     libsec-ril-dsds \
+    libsec-ril \
     libskeymaster3device \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.radio.bridge@2.0 \
