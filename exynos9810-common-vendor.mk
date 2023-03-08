@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/sensor/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor/lhd.conf \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
-    vendor/samsung/exynos9810-common/proprietary/vendor/etc/snap_gpu_kernel_64.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_64.bin \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/samsung/exynos9810-common/proprietary/vendor/firmware/HFD.cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/HFD.cfg.bin \
     vendor/samsung/exynos9810-common/proprietary/vendor/firmware/HFD.model.new:$(TARGET_COPY_OUT_VENDOR)/firmware/HFD.model.new \
@@ -107,13 +106,12 @@ PRODUCT_PACKAGES += \
     camera.device@3.3-impl.exynos9810 \
     camera.device@3.5-impl.exynos9810 \
     libGLES_mali \
-    vulkan.mali \
-    libgpudataproducer \
     gatekeeper.exynos9810 \
     gralloc.exynos9810 \
     hwcomposer.exynos9810 \
     memtrack.exynos9810 \
     power.exynos9810 \
+    vulkan.mali \
     libExynosHWCService \
     libExynosOMX_Core \
     libExynosOMX_Resourcemanager \
@@ -188,6 +186,7 @@ PRODUCT_PACKAGES += \
     libbt-vendor.exynos9810 \
     libengmode_client \
     libflicker \
+    libgpudataproducer \
     libkeymaster2_mdfpp \
     libmpp \
     libril-samsung \
@@ -201,6 +200,7 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio@2.1 \
     vendor.samsung.hardware.security.widevine.keyprovisioning@1.0 \
     libaptX_encoder \
+    snap_gpu_kernel_64 \
     cbd \
     android.hardware.drm@1.2-service.widevine \
     gpsd \
